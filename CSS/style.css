@@ -1,0 +1,250 @@
+body{
+
+}
+
+#paragrafos{
+	color:red;
+	background-image: url(../fundos/fundo1.jpg);
+	background-repeat:no-repeat;
+
+	/** a imagem cobre o elemento inteiro*/
+	background-size: cover;
+
+	/* a imagem centraliza no elemento*/
+	/*background-position: center;*/
+	
+	/* a imagem nao rola junto com a pagina (fixa)
+	background-attachment: fixed;*/
+
+	/*a imagem rola junto com a página 
+	background-attachment: scroll; */
+
+	/*a imagem rola junto com o elemento*/
+	background-attachment: local;
+
+}
+
+#Título{
+	color:#FFFF00;
+}
+
+.texto_verde{
+	color:green;
+}
+
+
+/* unidade fixas*/
+#cm{
+	background-color: blue;
+	width:1cm;
+	height:1cm;
+}
+
+#mm{
+	background-color: red;
+	width:1mm;
+	height:1mm;
+}
+
+#in{
+	background-color: blue;
+	width:1in;
+	height:1in;
+}
+#px{
+	background-color: red;
+	width:10px;
+	height:10px;
+}
+
+#pt{
+	background-color: blue;
+	width:10pt;
+	height:10pt;
+}
+
+#pc{
+	background-color: red;
+	width:1pc;
+	height:1pc;
+}
+
+/* unidades relativas
+
+.container{
+	font-size: 25px;
+
+}
+
+.inside{
+	font-size: 2rem;
+
+}	*/
+
+/* 
+vw = largura 
+vh = altura 
+vmin = menor dimensão
+vmax = maior dimensão
+% = referencia ao elemento pai
+*/
+
+/*
+.container{
+	width: 50vw;
+	background: red;
+
+}
+
+.inside{
+	width: 100px;
+	background: blue;	
+
+}
+
+#base{
+	height: 10px;
+	background-color: red;
+}
+
+#container{
+	background-color: blue;
+	color:white;
+	padding: 10px;
+}
+
+.borda{
+
+	border-width: 5px;
+	border-style: solid;
+	border-color: red;
+	border-radius: 10px;
+
+	/*tudo em um só comando
+	border: 5px dashd blue;
+
+
+
+
+}
+
+.quadrado{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+pontilhado
+.dotted{border-style: dotted;}
+/*tracejado
+.dashed{border-style: dashed;}
+/*normal
+.solid{border-style: solid;}
+/*nenhuma
+.none {border-style: none;}
+/*nenhuma
+.hidden{border-style: hidden;}
+
+
+*/
+body{
+	padding: 0;
+	margin: 0;
+}
+/*
+.container{
+	background-color: red;
+	padding: 10px; 
+	border: 5px solid blue;
+	margin: 10px;
+
+}
+
+.content{
+	background-color:#ddd;
+	outline: 5px solid green;
+	padding: 5px; 
+}
+
+
+.square{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	border: 10px solid blue;
+	padding: 10px;
+	 o elemento respeita o tamanho da borda
+	box-sizing: border-box;
+}
+
+.square2{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	
+}
+
+
+p{
+
+	color: red;
+	/* maiusculo
+	text-transform: uppercase;*/
+	/* minusculo
+	text-transform: lowercase;*/
+	/* primeira letra maiusculo
+	text-transform: capitalize;*/
+	/*Indentação
+	text-indent: 35px;
+	 texto sublinhado
+	text-decoration: underline;
+	 texto riscado
+	text-decoration: line-through;
+	 espaço entre as letras
+	letter-spacing:1.2px;
+	 altura da linha
+	line-height: 3;
+	 distancia de uma palavra para outra
+	word-spacing: 5px;
+	 sonbra 3 valores
+	text-shadow: 1px 1px #bbb;
+*/
+
+.link{
+	text-decoration: none;
+	color: red; 
+	/*muda o cusor do mouse*/
+	cursor: crosshair;
+}
+/* link visitado*/
+.link:visited{
+	
+	color: red;
+}
+/* evento quando a pessoa passa o cusor por cima*/
+.link:hover{
+	background: #bc2035;
+	color: white;
+}
+/* evento ao clikar*/
+.link:active{
+
+}
+/*
+p{
+	/* trocando a fonte
+	font-family: Helvetica, Arial, sans-serif;
+
+	font-style: italic;
+	font-size: 22px;
+	/*negrito
+	font-weight: bold;
+	font-variant: small-caps;
+}*/
+
+ul{
+	/* tira os marcadores*/
+	list-style-type: none;
+
+	
+	
+}

@@ -1,0 +1,42 @@
+
+
+.fundo{
+	
+	background-image: url(../imagem/backgorund1.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+	width:400px;
+	height:200px;
+	border-style: solid;
+	border-color: black;
+	border-bottom-width: 40px;
+	border-right-width: 20px;
+	border-top-width:10px;
+	border-left-width: 30px;
+	display: block;
+	margin: 100px auto;
+	max-width: 100%
+    
+}
+
+.Nome{
+
+	font-family: 'CourierPrimeCodeRegular';
+	font-size: 22px;
+	text-indent: 35px;
+	
+}
+
+.Lista{
+
+	text-transform: uppercase;	
+	font-family: 'CourierPrimeCodeRegular';
+	font-size: 17px;
+
+
+}
+
+ul{
+
+	list-style-type: none;
+}
